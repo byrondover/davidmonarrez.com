@@ -1,0 +1,38 @@
+<html>
+<head>
+  <script src="../js/processing.js"></script>
+  <style>
+    .outer {
+      display: table;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+    }
+    
+    .middle {
+      display: table-cell;
+      vertical-align: middle;
+    }
+    
+    .inner {
+      margin-left: auto;
+      margin-right: auto; 
+      width: 400px;
+    }
+  </style>
+</head>
+<body>
+
+<script type="text/processing" data-processing-target="processing-canvas" src="../js/animalattack.js"></script>
+
+<div class="outer">
+  <div class="middle">
+    <div class="inner">
+      <canvas id="processing-canvas"></canvas>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
